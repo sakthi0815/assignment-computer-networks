@@ -109,8 +109,7 @@ while True:
             print(line)
         cacheFile.close()
         print('Sent to the client:')        
-       # print('> ' + cacheData)
-        print('> ' + ''.join(cacheData))
+        print('> ' + cacheData)
     except Exception as e:
         # Cache miss. Get resource from origin server
         originServerSocket = None
